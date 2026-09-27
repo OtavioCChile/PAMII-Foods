@@ -1,10 +1,10 @@
 import axios from "axios";
 
 // 👉 Troque para a sua URL do MockAPI:
-export const MOCKAPI_BASE = "https://6ab558bf24ee9d3caa1c6927.mockapi.io/api/v1/dados";
+export const MOCKAPI_BASE = "mock";
 
-// Cliente Axios para MockAPI (clientes)
-export const clientsHttp = axios.create({
+// Cliente Axios para MockAPI (comidas)
+export const foodsHttp = axios.create({
   baseURL: MOCKAPI_BASE,
   timeout: 10000,
   headers: { "Content-Type": "application/json" },
